@@ -26,3 +26,10 @@ void test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT()
 	MoveLowestToRight(testArray,3);
 	TEST_ASSERT_EQUAL(1,testArray[2]);
 }
+
+void test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT_FOR_5_DATA()
+{
+	int testArray[]={1,5,13,2,3};
+	MoveLowestToRight(testArray,5);
+	TEST_ASSERT_EQUAL(1,testArray[4]);
+}

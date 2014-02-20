@@ -9,6 +9,7 @@
 #define BUBBLESORT_H_
 
 void CompareAndSwap (int *first , int *second);
+void MoveLowestToRight (int *array , int size);
 
 
 #endif /* BUBBLESORT_H_ */

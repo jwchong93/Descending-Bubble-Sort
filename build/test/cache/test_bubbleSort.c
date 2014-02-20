@@ -35,3 +35,17 @@ void test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT()
  UnityAssertEqualNumber((_U_SINT)((1)), (_U_SINT)((testArray[2])), (((void *)0)), (_U_UINT)27, UNITY_DISPLAY_STYLE_INT);
 
 }
+
+
+
+void test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT_FOR_5_DATA()
+
+{
+
+ int testArray[]={1,5,13,2,3};
+
+ MoveLowestToRight(testArray,5);
+
+ UnityAssertEqualNumber((_U_SINT)((1)), (_U_SINT)((testArray[4])), (((void *)0)), (_U_UINT)34, UNITY_DISPLAY_STYLE_INT);
+
+}
