@@ -15,11 +15,17 @@
 - :test: test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_3_DATA
   :line: 37
   :message: ''
+- :test: test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_4_DATA
+  :line: 47
+  :message: ''
+- :test: test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_5_DATA
+  :line: 58
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 4
-  :passed: 4
+  :total: 6
+  :passed: 6
   :failed: 0
   :ignored: 0
 :stdout: []

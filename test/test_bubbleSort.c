@@ -43,3 +43,26 @@ void test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_3_DATA()
 	TEST_ASSERT_EQUAL(1,testArray[2]);
 
 }
+
+void test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_4_DATA()
+{
+	int testArray[]={1,45,20,100};
+	DescendingBubbleSort (testArray,4);
+	TEST_ASSERT_EQUAL(100,testArray[0]);
+	TEST_ASSERT_EQUAL(45,testArray[1]);
+	TEST_ASSERT_EQUAL(20,testArray[2]);
+	TEST_ASSERT_EQUAL(1,testArray[3]);
+
+}
+
+void test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_5_DATA()
+{
+	int testArray[]={1,45,20,3,80};
+	DescendingBubbleSort (testArray,5);
+	TEST_ASSERT_EQUAL(80,testArray[0]);
+	TEST_ASSERT_EQUAL(45,testArray[1]);
+	TEST_ASSERT_EQUAL(20,testArray[2]);
+	TEST_ASSERT_EQUAL(3,testArray[3]);
+	TEST_ASSERT_EQUAL(1,testArray[4]);
+
+}
