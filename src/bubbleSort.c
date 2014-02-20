@@ -29,4 +29,7 @@ void MoveLowestToRight (int *array , int size)
 
 }
 
+void DescendingBubbleSort (int *array, int size)
+{
 
+}
