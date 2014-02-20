@@ -2,12 +2,15 @@
 :source:
   :path: test
   :file: test_bubbleSort.c
-:successes: []
+:successes:
+- :test: test_CompareAndSwap_SHOULD_SWAP_DATA_IN_DESCENDING_ORDER
+  :line: 15
+  :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 0
-  :passed: 0
+  :total: 1
+  :passed: 1
   :failed: 0
   :ignored: 0
 :stdout: []

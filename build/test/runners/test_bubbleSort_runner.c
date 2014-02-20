@@ -30,6 +30,7 @@ char* GlobalOrderError;
 //=======External Functions This Runner Calls=====
 extern void setUp(void);
 extern void tearDown(void);
+extern void test_CompareAndSwap_SHOULD_SWAP_DATA_IN_DESCENDING_ORDER(void);
 
 
 //=======Test Reset Option=====
@@ -45,6 +46,7 @@ int main(void)
 {
   Unity.TestFile = "test_bubbleSort.c";
   UnityBegin();
+  RUN_TEST(test_CompareAndSwap_SHOULD_SWAP_DATA_IN_DESCENDING_ORDER, 15);
 
   return (UnityEnd());
 }

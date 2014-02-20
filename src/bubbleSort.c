@@ -10,5 +10,13 @@
 
 void CompareAndSwap (int *first , int *second)
 {
+	int temp;
+	if (*first<*second)
+	{
+		temp = *first;
+		*first = *second;
+		*second =temp;
+
+	}
 
 }
