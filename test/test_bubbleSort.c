@@ -19,3 +19,10 @@ void test_CompareAndSwap_SHOULD_SWAP_DATA_IN_DESCENDING_ORDER()
 	TEST_ASSERT_EQUAL(13,testArray[0]);
 	TEST_ASSERT_EQUAL(8,testArray[1]);
 }
+
+void test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT()
+{
+	int testArray[]={1,5,13};
+	MoveLowestToRight(testArray,3);
+	TEST_ASSERT_EQUAL(1,testArray[2]);
+}

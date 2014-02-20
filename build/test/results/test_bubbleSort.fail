@@ -1,0 +1,19 @@
+---
+:source:
+  :path: test
+  :file: test_bubbleSort.c
+:successes:
+- :test: test_CompareAndSwap_SHOULD_SWAP_DATA_IN_DESCENDING_ORDER
+  :line: 15
+  :message: ''
+:failures:
+- :test: test_MoveLowestToRight_SHOULD_MOVE_THE_LOWEST_NUMBER_TO_THE_RIGHT
+  :line: 27
+  :message: Expected 1 Was 13
+:ignores: []
+:counts:
+  :total: 2
+  :passed: 1
+  :failed: 1
+  :ignored: 0
+:stdout: []

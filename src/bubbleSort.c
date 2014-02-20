@@ -16,7 +16,10 @@ void CompareAndSwap (int *first , int *second)
 		temp = *first;
 		*first = *second;
 		*second =temp;
-
 	}
+}
+
+void MoveLowestToRight (int *array , int size)
+{
 
 }
