@@ -21,5 +21,10 @@ void CompareAndSwap (int *first , int *second)
 
 void MoveLowestToRight (int *array , int size)
 {
+	int i =0;
+	for(i=0;i<size-1;i++)
+	{
+		CompareAndSwap(&array[i],&array[i+1]);
+	}
 
 }
