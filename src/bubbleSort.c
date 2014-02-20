@@ -31,5 +31,9 @@ void MoveLowestToRight (int *array , int size)
 
 void DescendingBubbleSort (int *array, int size)
 {
+	for(;size>=2;size--)
+		{
+			MoveLowestToRight (array,size);
+		}
 
 }

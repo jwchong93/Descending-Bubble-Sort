@@ -58,7 +58,7 @@ void test_DescendingBubbleSort_SHOULD_SORT_DATA_IN_DESCENDING_ORDER_FOR_3_DATA()
 
  int testArray[]={1,45,20};
 
- DescendingBubbleSort (&testArray,3);
+ DescendingBubbleSort (testArray,3);
 
  UnityAssertEqualNumber((_U_SINT)((45)), (_U_SINT)((testArray[0])), (((void *)0)), (_U_UINT)41, UNITY_DISPLAY_STYLE_INT);
 
